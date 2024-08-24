@@ -1,0 +1,16 @@
+{
+    "name": "nighthawk",
+    "version": "1.0.0",
+    "description": "A Slack bot for automating commands",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "@slack/bolt": "^3.21.1",
+        "config": "^3.3.12",
+        "dotenv": "^16.4.5"
+    },
+    "author": "",
+    "license": "ISC"
+}
